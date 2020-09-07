@@ -1,3 +1,3 @@
 from draw import drawImage
 
-drawImage(1600, 1600)
+drawImage(64, 64, 32)
