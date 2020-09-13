@@ -17,3 +17,4 @@ def drawImage(length, width, redraw):
     im = Image.fromarray(array).convert('YCbCr')
     im.save('random.jpeg')
     time.sleep(1/2)
+    im.show()
