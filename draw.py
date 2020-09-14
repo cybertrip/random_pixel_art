@@ -1,9 +1,9 @@
 # Import Functions
-#   > numpy is for generating a three diemnsional array with color values of Lumninance, Chrominance Red and Chrominance Blue
 #   > pillow (PIL) is for generating an image from an array
+#   > numpy is for generating a three diemnsional array with color values of Lumninance, Chrominance Red and Chrominance Blue
 #   > time is to give a delay to the program execution
-import numpy as np
 from PIL import Image
+import numpy as np
 import time
 
 # Draw Image from Array
@@ -17,4 +17,3 @@ def drawImage(length, width, redraw):
     im = Image.fromarray(array).convert('YCbCr')
     im.save('random.jpeg')
     time.sleep(1/2)
-    im.show()
