@@ -12,6 +12,8 @@ from draw import drawImage
 #   > Fills the whole window
 def start():
   root = tkinter.Tk()
+  
+  root.title("Image Generator")
 
   # Size of image itself (512 x 512)
   root.geometry("512x512")
